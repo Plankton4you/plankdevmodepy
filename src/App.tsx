@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [audio] = useState(new Audio('https://f.uguu.se/LjlRRWbX.m4a'));
+  const [audio] = useState(new Audio('https://files.catbox.moe/aylbnm'));
   const [currentSection, setCurrentSection] = useState('home');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedLanguage, setSelectedLanguage] = useState('');
@@ -155,7 +155,7 @@ Just let me know what you'd like help with.`
             <button>Get Started</button>
         </section>
         <audio id="backsound" loop="">
-  <source src="https://f.uguu.se/LjlRRWbX.m4a" type="audio/mpeg">
+  <source src="https://files.catbox.moe/aylbnm" type="audio/mpeg">
   Browser Anda tidak mendukung elemen audio.
 </audio>
     </main>
