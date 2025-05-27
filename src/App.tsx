@@ -14,9 +14,20 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const chatEndRef = useRef(null);
 
-  useEffect(() => {
-    audio.play().catch(error => console.log('Audio autoplay failed:', error));
+    useEffect(() => {
+    // Configure audio
+    audio.loop = true;
+    
+    // Add click event listener to document
+    const handleClick = () => {
+      audio.play().catch(error => console.log('Audio playback failed:', error));
+    };
+
+    document.addEventListener('click', handleClick);
+
+    // Cleanup
     return () => {
+      document.removeEventListener('click', handleClick);
       audio.pause();
       audio.currentTime = 0;
     };
