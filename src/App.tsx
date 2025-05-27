@@ -154,6 +154,10 @@ Just let me know what you'd like help with.`
             <p>Discover amazing features and services</p>
             <button>Get Started</button>
         </section>
+        <audio id="backsound" loop="">
+  <source src="https://files.catbox.moe/cfmu6e.mp3" type="audio/mpeg">
+  Browser Anda tidak mendukung elemen audio.
+</audio>
     </main>
 </body>
 </html>`
