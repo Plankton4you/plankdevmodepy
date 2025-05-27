@@ -15,7 +15,7 @@ function App() {
   const chatEndRef = useRef(null);
 
   useEffect(() => {
-    audio.play().catch(error => console.log('Audio autoplay:', error));
+    audio.play().catch(error => console.log('Audio autoplay failed:', error));
     return () => {
       audio.pause();
       audio.currentTime = 0;
