@@ -92,6 +92,7 @@ Just let me know what you'd like help with.`
 
   const scripts = [
     { name: 'KYOKI MD [NO ENC]', url: 'https://www.mediafire.com/file/fu33zksqzcop4ei/KYOKI+MD+NO+ENC.zip/file' },
+    { name: 'APK TOOLS ALL FITUR', url: 'https://www.mediafire.com/file/51sgk0s2jgrybyv/Tools+X+PlankDev+V1.apk/file' },
     { name: 'KORPS GOZZ CRASH', url: 'https://www.mediafire.com/file/5bxgxultabq7m9o/西𝙎𝘾𝙍𝙄𝙋𝙏+𝙆𝙊𝙍𝙋𝙎+𝙂𝙊𝙕𝙕起.zip/file' },
     { name: 'KUROGANE CRASHER', url: 'https://www.mediafire.com/file/n1ep4oh8oyyatnp/KuroganeCrasher.zip/file' },
     { name: 'PARK INVISION V1.0', url: 'https://www.mediafire.com/file/qzhi3qbeezgj9je/PARK_INVISION_V1.0.zip/file' },
@@ -775,6 +776,14 @@ end`
                   rel="noopener noreferrer"
                 >
                   Website 2
+                </a>
+                <a
+                  href="https://chat.whatsapp.com/BwsDyzx9rHg7tImj1hv1bw"
+                  className="block p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Marga PlankDev
                 </a>
               </div>
             </section>
