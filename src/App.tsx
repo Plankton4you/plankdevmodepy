@@ -91,7 +91,7 @@ Just let me know what you'd like help with.`
   ];
 
   const scripts = [
-    { name: 'SCRIPT BOT MD WA NO ENC', url: 'https://www.mediafire.com/file/pbr7m54wwu3ft0w/Sc-Md-ByMalz-NoEnc.zip/file' },
+    { name: 'SCRIPT BOT MD WA NO ENC', url: 'https://www.mediafire.com/file/je75s7i787inh2f/Sc-Md-ByMalzhost-NoEnc.zip/file' },
     { name: 'SCRIPT BASE MD BOT WA NO ENC', url: 'https://www.mediafire.com/file/jm2hjtrub85fpmh/Base-BotWA-NoENC.zip/file' },
     { name: 'SC CPANEL SIMPLE', url: 'https://www.mediafire.com/file/mis6m62tjettnlx/CPANEL+SIMPEL.zip/file' },
     { name: 'KUMPULAN SC DDOS', url: 'https://www.mediafire.com/file/lmk6e0cpd5bnmcs/DDOS+ARCHIVE.zip/file' },
