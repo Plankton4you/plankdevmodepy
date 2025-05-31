@@ -91,10 +91,16 @@ Just let me know what you'd like help with.`
   ];
 
   const scripts = [
+    { name: 'SCRIPT BOT MD WA NO ENC', url: 'https://www.mediafire.com/file/pbr7m54wwu3ft0w/Sc-Md-ByMalz-NoEnc.zip/file' },
     { name: 'SCRIPT BASE MD BOT WA NO ENC', url: 'https://www.mediafire.com/file/jm2hjtrub85fpmh/Base-BotWA-NoENC.zip/file' },
+    { name: 'SC CPANEL SIMPLE', url: 'https://www.mediafire.com/file/mis6m62tjettnlx/CPANEL+SIMPEL.zip/file' },
     { name: 'KUMPULAN SC DDOS', url: 'https://www.mediafire.com/file/lmk6e0cpd5bnmcs/DDOS+ARCHIVE.zip/file' },
+    { name: 'SC BUG NIKA V9', url: 'https://www.mediafire.com/file/95m0rr0sbjsedpe/NIKA+V9.2+NEW+[+NO+ENC+BY+ANONIM].zip/file' },
     { name: 'KYOKI MD [NO ENC]', url: 'https://www.mediafire.com/file/fu33zksqzcop4ei/KYOKI+MD+NO+ENC.zip/file' },
+    { name: 'NAKANO ITSUKI - AI V2', url: 'https://www.mediafire.com/file/gxk7wd9vglfbuhe/Itsuki_-_AI_V2_.zip/file' },
     { name: 'APK TOOLS ALL FITUR', url: 'https://www.mediafire.com/file/51sgk0s2jgrybyv/Tools+X+PlankDev+V1.apk/file' },
+    { name: 'SC CPANEL & PUSHKONT', url: 'https://www.mediafire.com/file/1m2kzcz7gndhrwq/Levi_Botz_New_Version.zip/file' },
+    { name: 'SC FURINA MD V2 NO ENC', url: 'https://www.mediafire.com/file/8bgofihs8du3n82/FURINA_MD_V2_%255B_FIX_%255D.gz/file' },
     { name: 'KORPS GOZZ CRASH', url: 'https://www.mediafire.com/file/5bxgxultabq7m9o/西𝙎𝘾𝙍𝙄𝙋𝙏+𝙆𝙊𝙍𝙋𝙎+𝙂𝙊𝙕𝙕起.zip/file' },
     { name: 'KUROGANE CRASHER', url: 'https://www.mediafire.com/file/n1ep4oh8oyyatnp/KuroganeCrasher.zip/file' },
     { name: 'PARK INVISION V1.0', url: 'https://www.mediafire.com/file/qzhi3qbeezgj9je/PARK_INVISION_V1.0.zip/file' },
