@@ -48,7 +48,7 @@ function App() {
     try {
       const boltResponse = {
         role: 'assistant',
-        content: `I am Bolt, your AI coding assistant. I'll help you with your programming questions and provide guidance on best practices. How can I assist you with your code today?
+        content: `I am PlankDev, your AI coding assistant. I'll help you with your programming questions and provide guidance on best practices. How can I assist you with your code today?
 
 For example, I can help you with:
 - Code explanations
@@ -923,7 +923,7 @@ end`
                 }}
                 className="w-full text-left p-2 hover:bg-gray-800 rounded-lg"
               >
-                Chat with Bolt
+                Chat with AI PlankDev
               </button>
             </li>
           </ul>
