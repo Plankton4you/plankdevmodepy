@@ -91,6 +91,8 @@ Just let me know what you'd like help with.`
   ];
 
   const scripts = [
+    { name: 'SCRIPT BASE MD BOT WA NO ENC', url: 'https://www.mediafire.com/file/jm2hjtrub85fpmh/Base-BotWA-NoENC.zip/file' },
+    { name: 'KUMPULAN SC DDOS', url: 'https://www.mediafire.com/file/lmk6e0cpd5bnmcs/DDOS+ARCHIVE.zip/file' },
     { name: 'KYOKI MD [NO ENC]', url: 'https://www.mediafire.com/file/fu33zksqzcop4ei/KYOKI+MD+NO+ENC.zip/file' },
     { name: 'APK TOOLS ALL FITUR', url: 'https://www.mediafire.com/file/51sgk0s2jgrybyv/Tools+X+PlankDev+V1.apk/file' },
     { name: 'KORPS GOZZ CRASH', url: 'https://www.mediafire.com/file/5bxgxultabq7m9o/西𝙎𝘾𝙍𝙄𝙋𝙏+𝙆𝙊𝙍𝙋𝙎+𝙂𝙊𝙕𝙕起.zip/file' },
